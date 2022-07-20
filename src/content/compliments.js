@@ -1,0 +1,27 @@
+export const compliments = [ 
+    "My divs are so excited that you're visting my website today.", 
+    "I almost forget to say--thank you for being here!", 
+    "May your code be without bugs and your website without typos", 
+    "I hope you find my color choices radiant....and my typos even more radiant", 
+    "Fun fact: I love creative writing.", 
+    "What happens when an egg laughs? It cracks up.", 
+    "Make time to enjoy the simple things in life--like code that compiles.", 
+    "Every day might not be good, but there's something good in every day....like a new visitor on your website!", 
+    "Welcome to my personal website :-)", 
+    "☕ ☕ ☕ ", 
+    "I wonder what exciting things brings you here today.", 
+    "Reach out under your own discretion: will talk excessively about my cat", 
+    "This time, next week? Meet me at my website", 
+    "I'm so glad that you are here today :-)", 
+    "Your arrival is probably the most exciting thing that has happened to this website today!", 
+    "I hope you smile today and tomorrow and tomorrow tomorrow and tomorrow tomorrow tomorrow ",
+    "Got any podcast recs?",  
+    "Art, photography, writing--those are just a few of the things that inspire me.", 
+    "I hope today is a great day for you.", 
+    "Fun fact: I can speak three languages!", 
+    "How fantabulous it is that you are here today!", 
+    "Remember the time you clicked on my website? That was great.", 
+    "I hope you do something amazing this week, no matter how small", 
+    "I promise there will not be another cheesy joke"
+
+]

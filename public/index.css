@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bogart';
+    src: local('Bogart'), url(./fonts/bogart/Bogart-Regular-trial.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Biotif';
+    src: local('Biotif'), url(./fonts/Biotif/Fontspring-DEMO-biotif-regular.otf) format('truetype');
+}

@@ -1,0 +1,35 @@
+@media (prefers-reduced-motion: no-preference) {
+    .BounceText-Content-Shaking {
+        animation: BounceText-Content-Shaking 1 1.5s ease-in;
+    }
+}
+
+@keyframes BounceText-Content-Shaking {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        top: 0px;
+    }
+
+    40% {
+        top: 17px;
+        bottom: 18px;
+    }
+
+    60% {
+        top: 10px;
+        bottom: 11px;
+    }
+
+}
+
+.BounceText-Content-Shaking {
+    position: relative;
+}
+
+.BounceText-Content {
+    position: relative;
+}
