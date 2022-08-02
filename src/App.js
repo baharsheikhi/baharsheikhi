@@ -4,6 +4,7 @@ import { introduction } from './content/introduction';
 import React, { useState } from 'react';
 import { compliments } from './content/compliments'
 import BounceText from './BounceText';
+import classNames from 'classnames';
 
 function App() {
   const [count, setCount] = useState("");
@@ -43,9 +44,19 @@ function App() {
           </div>
         </div>
       </div>
-      <p>
-        Experience
-      </p>
+      <div className="App-Experience">
+        <p className="App-Header-Content-Title">
+          Experience
+        </p>
+        <div className="App-Experience-Content-Container">
+          <div className="App-Experience-Content-Container-Column-Left">
+            <p className={classNames("App-Header-Content-Introduction", "App-Header-Experience-Content-Text")}><b>Software Engineer at Alma</b><br /> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div className="App-Experience-Content-Container-Column-Right">
+            <p className={classNames("App-Header-Content-Introduction", "App-Header-Experience-Content-Text")}><b>Software Engineer at Drift</b><br /> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

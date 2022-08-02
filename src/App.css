@@ -34,10 +34,14 @@
   font-family: 'Albert Sans', sans-serif;
 }
 
+.App-Header-Content-Title { 
+  margin-bottom: 18px;
+}
+
 .App-Header-Content-Title {
   font-family: 'bogart';
-  margin-bottom: 18px;
   font-weight: 900;
+  font-size: calc(10px + 7vmin);
 }
 
 .App-Header-Content-Introduction-Button {
@@ -78,4 +82,26 @@ button:focus {
 
 button:active {
   transform: scale(0.99);
+}
+
+.App-Experience {
+  min-height: 100vh;
+  font-size: calc(10px + 7vmin);
+  text-align: left;
+  padding-left: 20vmin;
+  padding-right: 10vmin;
+}
+
+.App-Experience-Content-Container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App-Experience-Content-Container-Column-Left { 
+  margin-right:5px;
+}
+
+.App-Experience-Content-Container-Column-Right { 
+  margin-left: 5px;
 }
