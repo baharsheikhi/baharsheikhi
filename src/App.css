@@ -1,107 +1,119 @@
+/* App Styles */
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
-
-.App-Header {
-  background-color: #FFECCC;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  font-size: calc(10px + 7vmin);
-  color: black;
-  text-align: left;
-  border-top: 2px solid #332e2e;
-  border-bottom: 2px solid #332e2e;
+.App-Text {
+    font-size: calc(10px + 1vmin);
+    text-align: left;
+    font-family: 'Albert Sans', sans-serif;
 }
 
-.App-Header-Content {
-  padding-left: 20vmin;
-  max-width: 115vmin;
-  padding-right: 20vmin;
+.App-Title {
+    margin-bottom: 18px;
 }
 
-.App-Header-Content-Introduction {
-  font-size: calc(10px + 1vmin);
-  text-align: left;
-  font-family: 'Albert Sans', sans-serif;
+.App-Title {
+    font-family: 'bogart';
+    font-weight: 900;
+    font-size: calc(10px + 7vmin);
 }
-
-.App-Header-Content-Title { 
-  margin-bottom: 18px;
-}
-
-.App-Header-Content-Title {
-  font-family: 'bogart';
-  font-weight: 900;
-  font-size: calc(10px + 7vmin);
-}
-
-.App-Header-Content-Introduction-Button {
-  position: relative;
-  bottom: 15px;
-}
-
 
 button {
-  font-weight: 600;
-  border-radius: 20px;
-  display: inline-block;
-  border: 2px solid black;
-  padding: 1rem 1.5rem;
-  margin: 0;
-  text-decoration: none;
-  background: #c5f0e5;
-  color: black;
-  font-family: sans-serif;
-  font-size: 15px;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out,
-    transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+    font-weight: 600;
+    border-radius: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
-
-button:hover {
-  background: #FFECCC;
-  border-radius: 10px;
+.button:hover {
+    border-radius: 10px;
 }
 
 button:focus {
-  outline-offset: -4px;
+    outline-offset: -4px;
 }
 
 button:active {
-  transform: scale(0.99);
+    transform: scale(0.99);
 }
+
+
+
+/* App Header Styles */
+
+.App-Header {
+    background-color: #FFECCC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: calc(10px + 7vmin);
+    color: black;
+    text-align: left;
+    border-top: 2px solid #332e2e;
+    border-bottom: 2px solid #332e2e;
+}
+
+.App-Header-Content {
+    padding-left: 20vmin;
+    max-width: 115vmin;
+    padding-right: 20vmin;
+}
+
+.App-Header-Content-Introduction-Button-Container {
+    position: relative;
+    bottom: 15px;
+}
+
+
+.App-Header-Content-Introduction-Button {
+    background: #c5f0e5;
+}
+
+App-Header-Content-Introduction-Button:hover {
+    background: #FFECCC;
+}
+
+
+/* App Experience Styles */
 
 .App-Experience {
-  min-height: 100vh;
-  font-size: calc(10px + 7vmin);
-  text-align: left;
-  padding-left: 20vmin;
-  padding-right: 10vmin;
+    min-height: 100vh;
+    font-size: calc(10px + 7vmin);
+    text-align: left;
+    padding-left: 20vmin;
+    padding-right: 10vmin;
 }
 
-.App-Experience-Content-Container { 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.App-Experience-Content-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.App-Experience-Content-Container-Column-Left { 
-  margin-right:5px;
+.App-Experience-Content-Container-Column-Left {
+    margin-right: 5px;
 }
 
-.App-Experience-Content-Container-Column-Right { 
-  margin-left: 5px;
+.App-Experience-Content-Container-Column-Right {
+    margin-left: 5px;
 }
